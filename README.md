@@ -2,7 +2,7 @@
 
 This document represents my sales project with The Incubator Hub.
 
-### Project Title: Analysis of Capstone Store's Sales Data
+### Project Title: Analysis of Retail Store's Sales Data
 
 [Data Sources](#data-sources)
 
@@ -18,7 +18,7 @@ This document represents my sales project with The Incubator Hub.
 
 ### Project Overview
 ---
-The objective of this project is to evaluate the sales performance of Capstone Store, identifying trends, customer preferences, and areas for improvement. This analysis aims to support data-driven decisions to boost sales and enhance customer satisfaction.
+The goal of this project is to analyze the sales performance of a retail store by exploring sales data to uncover key insights, including top-selling products, regional performance, and monthly sales trends.
 
 ### Data Sources
 ---
@@ -30,3 +30,15 @@ The primary data source for this project is Data Sale.csv, an open-source datase
 1.  For Data Cleaning
 2.  For Analysis
 3.  For Visualization
+
+Here are the steps taken to complete this project:
+
+**Cleaning of the Sales Data:**
+
+-Open the Excel Worksheet.
+
+-Highlight the data.
+
+-Click on the Data Tab.
+
+-Select "Remove Duplicates" to eliminate any duplicate entries.
