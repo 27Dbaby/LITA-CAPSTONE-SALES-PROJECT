@@ -80,9 +80,6 @@ Here are the steps taken to complete this project:
 Here, we include basic lines of code, queries, and some of the DAX expressions used during the analysis.
 
 ```SQL
-SELECT * 
-FROM TABLE1
-WHERE CONDITION = TRUE;
 
 [CREATE DATABASE Capstone_DB
 
