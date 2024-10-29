@@ -33,7 +33,7 @@ The primary data source for this project is Data Sale.csv, an open-source datase
 
 Here are the steps taken to complete this project:
 
-**Cleaning of the Sales Data:**
+1. **Cleaning of the Sales Data:**
 
 -Open the Excel Worksheet.
 
