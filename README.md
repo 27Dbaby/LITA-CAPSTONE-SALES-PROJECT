@@ -23,3 +23,10 @@ The objective of this project is to evaluate the sales performance of Capstone S
 ### Data Sources
 ---
 The primary data source for this project is Data Sale.csv, an open-source dataset freely available for download from platforms like Kaggle or other data repository sites.
+
+### Tools Used
+---
+- Microsoft Excel  [Download](https://www.microsoft.com)
+1.  For Data Cleaning
+2.  For Analysis
+3.  For Visualization
