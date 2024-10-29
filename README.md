@@ -138,6 +138,7 @@ WHERE Product NOT IN (
     FROM [Sales Data]
     WHERE OrderDate >= DATEADD(quarter,-1,'2024-09-30')
 );Uploading SQLQuery2.sql…]()
+```
 
 ```POWERBI
 Total Sales = SUM('Sales'[SalesAmount])
