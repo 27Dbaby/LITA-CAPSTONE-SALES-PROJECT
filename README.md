@@ -42,3 +42,9 @@ Here are the steps taken to complete this project:
 * Click on the Data Tab.
 
 * Select "Remove Duplicates" to eliminate any duplicate entries.
+
+2.Calculate Total Revenue and Average Sales:
+
+* Formula for Total Revenue: =SUM(F2*E2)
+
+* Formula for Average Sales: =AVERAGEIF(C2:C9921, C2, H2:H9921)
