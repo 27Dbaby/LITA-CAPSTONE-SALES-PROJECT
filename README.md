@@ -57,6 +57,8 @@ Here are the steps taken to complete this project:
 * Formula for Average Sales: =AVERAGEIF(C2:C9921, C2, H2:H9921)
 ![Powerbi Class Project-08](https://github.com/user-attachments/assets/48a78f42-318c-4671-a783-4838027f88a7)
 ![Powerbi Class Project-09](https://github.com/user-attachments/assets/ae718706-a82a-46b4-b3c7-f2a2172c6f41)
+![Powerbi Class Project-02](https://github.com/user-attachments/assets/d20c39ec-4cf0-453a-8da6-39eca3a9eda7)
+![Powerbi Class Project-03](https://github.com/user-attachments/assets/e794d00a-0fad-4302-afbd-bba9f0d32f86)
 
 3. **Pivot Table Report:** Displays total sales categorized by region, month, and product.
 ![Powerbi Class Project-10](https://github.com/user-attachments/assets/f974c2dc-39d2-4380-bdda-f36d7cdbca2d)
@@ -125,7 +127,12 @@ WHERE Product NOT IN (
     WHERE OrderDate >= DATEADD(quarter,-1,'2024-09-30')
 );Uploading SQLQuery2.sql…]()
 
+```POWERBI
+Total Sales = SUM('Sales'[SalesAmount])
 ```
+![Powerbi Class Project-04](https://github.com/user-attachments/assets/d9fc6b55-ba24-44b9-84d5-6465a9b00d94)
+
+
 
   
 
