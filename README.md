@@ -55,11 +55,11 @@ Here are the steps taken to complete this project:
 * Formula for Total Revenue: =SUM(F2*E2)
 
 * Formula for Average Sales: =AVERAGEIF(C2:C9921, C2, H2:H9921)
-![Powerbi Class Project-08](https://github.com/user-attachments/assets/7e2afb41-f43c-48ec-9283-038e759cf9a3)
-![Powerbi Class Project-09](https://github.com/user-attachments/assets/90c15b27-598d-4222-81bf-13a8750f4165)
+![Powerbi Class Project-08](https://github.com/user-attachments/assets/48a78f42-318c-4671-a783-4838027f88a7)
+![Powerbi Class Project-09](https://github.com/user-attachments/assets/ae718706-a82a-46b4-b3c7-f2a2172c6f41)
 
 3. **Pivot Table Report:** Displays total sales categorized by region, month, and product.
-![Powerbi Class Project-10](https://github.com/user-attachments/assets/e0cfb240-422a-4214-96cb-a95f50060203)
+![Powerbi Class Project-10](https://github.com/user-attachments/assets/f974c2dc-39d2-4380-bdda-f36d7cdbca2d)
 
 ### Data Analysis
 ---
