@@ -2,7 +2,7 @@
 
 This document represents my sales project with The Incubator Hub.
 
-### Project Title: Analysis of Retail Store's Sales Data
+### **Project Title: Analysis of Retail Store's Sales Data**
 
 [Data Sources](#data-sources)
 
@@ -16,22 +16,34 @@ This document represents my sales project with The Incubator Hub.
 
 [Data Visualization](#data-visualization)
 
-### Project Overview
+### **Project Overview**
 ---
 The goal of this project is to analyze the sales performance of a retail store by exploring sales data to uncover key insights, including top-selling products, regional performance, and monthly sales trends.
 
-### Data Sources
+### **Data Sources**
 ---
 The primary data source for this project is Data Sale.csv, an open-source dataset freely available for download from platforms like Kaggle or other data repository sites.
 
-### Tools Used
+### **Tools Used**
 ---
 - Microsoft Excel  [Download](https://www.microsoft.com)
 1.  For Data Cleaning
 2.  For Analysis
 3.  For Visualization
 
-### Exploratory Data Analysis (EDA)
+* SQL: Structured Query Language for querying data
+
+* GitHub: Portfolio building
+
+* Power BI: Visualization
+
+ ### **Data Cleaning and Preparation**
+In the initial phase of data cleaning and preparation, we perform the following actions:
+* Data loading and inspection
+* Handling missing variables
+* Data cleaning and formatting
+
+### **Exploratory Data Analysis (EDA)**
  ---
 EDA involved examining the data to answer various questions such as:
 * What is the overall monthly sales trend?
