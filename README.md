@@ -35,10 +35,10 @@ Here are the steps taken to complete this project:
 
 1. **Cleaning of the Sales Data:**
 
--Open the Excel Worksheet.
+* Open the Excel Worksheet.
 
--Highlight the data.
+* Highlight the data.
 
--Click on the Data Tab.
+* Click on the Data Tab.
 
--Select "Remove Duplicates" to eliminate any duplicate entries.
+* Select "Remove Duplicates" to eliminate any duplicate entries.
