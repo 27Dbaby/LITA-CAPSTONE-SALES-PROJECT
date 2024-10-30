@@ -138,8 +138,7 @@ WHERE Product NOT IN (
     WHERE OrderDate >= DATEADD(quarter,-1,'2024-09-30')
 );Uploading SQLQuery2.sql…]()
 
-```POWERBI
-Total Sales = SUM('Sales'[SalesAmount])
+
 ```
  ### Data Visualization
 
@@ -153,3 +152,6 @@ Over a two-year period, Capstone Store served a total of 500 customers across fo
 * **West:** Total Sales of $11,000, generating $300,000 from four products—Gloves, Hats, Shoes, and Socks.
   
 
+
+```POWERBI
+Total Sales = SUM('Sales'[SalesAmount])
