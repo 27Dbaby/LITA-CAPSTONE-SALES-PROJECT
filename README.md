@@ -137,7 +137,7 @@ WHERE Product NOT IN (
 );Uploading SQLQuery2.sql…]()
 ```
 
-```POWERBI
+```Data Visualisation 
 Total Sales = SUM('Sales'[SalesAmount])
 ```
 ![Doc2-1](https://github.com/user-attachments/assets/30d81e19-2b96-4517-acad-c897faa04944)
