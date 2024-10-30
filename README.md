@@ -79,7 +79,6 @@ Here are the steps taken to complete this project:
 ---
 Here, we include basic lines of code, queries, and some of the DAX expressions used during the analysis.
 
-```**SQL**
 
 [CREATE DATABASE Capstone_DB
 
@@ -137,9 +136,8 @@ WHERE Product NOT IN (
 );Uploading SQLQuery2.sql…]()
 ```
 
+ ### 
 
-```Data Visualisation 
-```
 ![Doc2-1](https://github.com/user-attachments/assets/30d81e19-2b96-4517-acad-c897faa04944)
 
 **Retail Store Analysis**
