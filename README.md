@@ -140,9 +140,13 @@ WHERE Product NOT IN (
 ```POWERBI
 Total Sales = SUM('Sales'[SalesAmount])
 ```
-![Powerbi Class Project-04](https://github.com/user-attachments/assets/d9fc6b55-ba24-44b9-84d5-6465a9b00d94)
+![Doc2-1](https://github.com/user-attachments/assets/30d81e19-2b96-4517-acad-c897faa04944)
 
-
-
+**Retail Store Analysis**
+Over a two-year period, Capstone Store served a total of 500 customers across four regions. Here is the breakdown:
+* **East:** Total Sales of $20,000, generating a total revenue of $486,000 from four products—Hats, Jackets, Shoes, and Shirts.
+* **North:** Total Sales of $12,000, generating $387,000 from three products—Hats, Jackets, and Shirts.
+* **South:** Total Sales of $24,000, generating $928,000 from three products—Gloves, Shoes, and Socks.
+* **West:** Total Sales of $11,000, generating $300,000 from four products—Gloves, Hats, Shoes, and Socks.
   
 
