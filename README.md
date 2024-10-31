@@ -142,7 +142,8 @@ WHERE Product NOT IN (
 ```
  ### Data Visualization
 
-![Doc2-1](https://github.com/user-attachments/assets/30d81e19-2b96-4517-acad-c897faa04944)
+![Sales Data Visualization_page-0001](https://github.com/user-attachments/assets/b6ca8737-7772-44a9-a137-adbdfa614a30)
+
 
 **Retail Store Analysis**
 Over a two-year period, Capstone Store served a total of 500 customers across four regions. Here is the breakdown:
