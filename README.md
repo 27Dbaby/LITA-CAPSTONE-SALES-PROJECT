@@ -80,72 +80,20 @@ Here are the steps taken to complete this project:
 Here, we include basic lines of code, queries, and some of the DAX expressions used during the analysis.
 
 ```SQL
-SELECT * 
-FROM TABLE1
-WHERE CONDITION = TRUE;
-[CREATE DATABASE Capstone_DB)
-
-SELECT * FROM [dbo].[Sales Data]
-
---------TOTAL SALES BY PRODUCT-------
 SELECT PRODUCT , SUM (Total_Revenue) AS   TOTALSALES
 FROM [dbo].[Sales Data]
 GROUP BY Product
-
--------- SALES TRANSACTION BY REGION----------
-SELECT Region, COUNT(*) AS NUMBEROFSALES
-FROM [dbo].[Sales Data]
-GROUP BY Region
-ORDER BY Region
-
----------HIGHEST SELLING PRODUCT BY TOTAL SALES VALUE-----------
-SELECT Product, SUM (Total_Revenue) AS TOTALSALES
-FROM [dbo].[Sales Data]
-GROUP BY Product
-ORDER BY totalsales DESC
-
-----------------TOTAL REVENUE PER PRODUCT-------------
-SELECT Product, SUM(Total_Revenue) AS total_revenue
-FROM [dbo].[Sales Data]
-GROUP BY Product;
-
-----------MONTHLY SALES TOTALS FOR THE CURRENT YEAR-----------
-SELECT MONTH (OrderDate) AS month,
-SUM(Total_Revenue) AS monthly_total
-FROM [dbo].[Sales Data]
-WHERE YEAR(OrderDate) = YEAR(OrderDate)
-GROUP BY MONTH(OrderDate)
-ORDER BY month;
-
---------------TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT----------
-SELECT customer_id, COUNT(Quantity) AS TOTALPURCHASE
-FROM [dbo].[Sales Data]
-GROUP BY customer_id
-ORDER BY customer_id DESC 
-
-----------PERCENTAGE OF TOTAL SALES CONTRIBUTED BY EACH REGION-----------
-SELECT Region, COUNT(Quantity) AS Total_Region_Sales,
-(SUM (Total_Revenue) / (SELECT SUM (Total_Revenue) FROM [Sales Data] )) * 100 AS percentage_contribution
-FROM [Sales Data]
-GROUP BY Region;
-
------------PRODUCTS WITH NO SALES IN THE LAST QUARTER-----------
-SELECT Product
-FROM [Sales Data] 
-WHERE Product NOT IN (
-    SELECT DISTINCT Product
-    FROM [Sales Data]
-    WHERE OrderDate >= DATEADD(quarter,-1,'2024-09-30')
-);Uploading SQLQuery2.sql…]()
-
-
 ```
- ### Data Visualization
 
+```DAX FUNCTION
+Total Sales = SUM('Sales'[SalesAmount])
+```
+
+ ### Data Visualization
 ![Sales Data Visualization_page-0001](https://github.com/user-attachments/assets/b6ca8737-7772-44a9-a137-adbdfa614a30)
 
-
 **Retail Store Analysis**
+
 Over a two-year period, Capstone Store served a total of 500 customers across four regions. Here is the breakdown:
 * **East:** Total Sales of $20,000, generating a total revenue of $486,000 from four products—Hats, Jackets, Shoes, and Shirts.
 * **North:** Total Sales of $12,000, generating $387,000 from three products—Hats, Jackets, and Shirts.
@@ -154,5 +102,4 @@ Over a two-year period, Capstone Store served a total of 500 customers across fo
   
 
 
-```POWERBI
-Total Sales = SUM('Sales'[SalesAmount])
+
